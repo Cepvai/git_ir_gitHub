@@ -88,12 +88,25 @@ p {
     border: 1px solid white;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.highlight-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    border-bottom: 1px dotted white;
+  }
+  
+  .highlight-link:hover {
+    color: #749beb; 
+    border-bottom: 1px dotted #749beb;
+  }
 
 @media (min-width: 768px) {
     .buttons {
