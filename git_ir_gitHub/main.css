@@ -88,11 +88,62 @@ p {
     border: 1px solid white;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s;
 }
 
 .button:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.highlight-link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+}
+
+.highlight-link:hover {
+    color: #332ba0;
+    border-bottom-color: #332ba0;
+}
+
+.tab-content {
+    display: none; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    overflow: auto;
+    z-index: 10;
+    padding: 20px;
+    text-align: left;
+}
+
+.tab-content h2 {
+    text-align: center;
+}
+
+.tab-video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
