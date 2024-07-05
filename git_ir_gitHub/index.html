@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mataverse</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" type="module"></script>
 </head>
 <body>
-<body>
-    <div class="container">
+    <div class="container initial-view">
         <img src="./resources/bg.jpg" alt="Background Image" class="background">
         <div class="content">
             <div class="logo">
@@ -16,21 +16,25 @@
             </div>
             <div class="line"></div>
             <h1>METAVERSE</h1>
-            <p>
-                INNOVATION THAT WILL SHAPE HOW WE 
-                <a href="#" class="highlight-link">CONNECT</a> 
-                IN THE WORLD AN 
-                <a href="#" class="highlight-link">OPPORTUNITY</a> 
-                FOR EVERYBODY.
-            </p>
+            <p>INNOVATION THAT WILL SHAPE HOW WE <a href="#" class="highlight-link">CONNECT</a> IN THE WORLD AN <a href="#" class="highlight-link">OPPORTUNITY</a> FOR EVERYBODY.</p>class="highlight-link">OPPORTUNITY</a> FOR EVERYBODY.</p>
             <div class="line"></div>
             <div class="buttons">
-                <a href="#" class="button">INTRO</a>
+                <a href="#" class="button" data-tab="introTab">INTRO</a>
                 <a href="#" class="button">WORK</a>
                 <a href="#" class="button">ABOUT</a>
                 <a href="#" class="button">CONTACT</a>
             </div>
         </div>
+    </div>
+    <div id="introTab" class="tab-content">
+        <span class="close-button">&times;</span>
+        <h2>INTRO</h2>
+        <video controls class="tab-video">
+            <source src="./resources/tab-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam fugit voluptas placeat architecto deleniti doloremque quidem vel, eum iure adipisci incidunt.</p>
+        <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore quibusdam, minima vel, neque ullam magnam cumque at quo corporis. Rerum consequuntur voluptatibus minima eligendi, quibusdam, doloremque quisquam excepturi est quam autem sunt suscipit tempore dolores quas provident! Recusandae, fugiat officiis deleniti quibusdam perferendis maiores! Doloribus obcaecati ipsum dicta maiores?</p>
     </div>
 </body>
 </html>
