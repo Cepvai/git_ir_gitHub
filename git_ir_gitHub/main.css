@@ -163,6 +163,19 @@ p {
     cursor: pointer;
 }
 
+.highlight-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    border-bottom: 1px dotted white;
+  }
+  
+  .highlight-link:hover {
+    color: #749beb; 
+    border-bottom: 1px dotted #749beb;
+  }
+
 @media (min-width: 768px) {
     .buttons {
         flex-direction: column;
